@@ -92,7 +92,7 @@
         FUNCTION {
             bindings = <
 &trans  &trans               &trans            &trans              &trans                                                            &kp F7             &kp F8            &kp F9        &kp F10        &kp F11
-&trans  &kp NUMBER_1         &kp NUMBER_2      &kp NUMBER_3        &kp NUMBER_4          &kp NUMBER_5              &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0   &kp LC(SEMI)
+&trans  &kp NUMBER_1         &kp NUMBER_2      &kp NUMBER_3        &kp NUMBER_4          &kp NUMBER_5              &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0   &kp SEMICOLON
 &trans  &kp LG(RIGHT_ARROW)  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &kp GRAVE     &kp BACKSLASH  &trans
 &trans  &trans               &trans            &trans              &trans                &trans                    &trans            &kp DELETE                                                        &trans
             >;
