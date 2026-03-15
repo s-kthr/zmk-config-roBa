@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y              &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H              &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &kp COLON                          &kp SEMICOLON  &kp N              &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp ENTER      &kp LC(BACKSPACE)                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R                 &kp T                                           &kp Y          &kp U  &lt 5 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                 &kp G        &kp LS(LG(ESCAPE))      &kp MINUS  &kp H          &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &kp TAB                 &kp PLUS   &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp ESC           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 2 TAB  &lt 1 SPACE  &kp LC(SPACE)           &kp ENTER  &kp BACKSPACE                             &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&trans  &trans               &trans            &trans              &trans                                                            &kp F7             &kp F8            &kp F9        &kp F10        &kp F11
+&trans  &kp NUMBER_1         &kp NUMBER_2      &kp NUMBER_3        &kp NUMBER_4          &kp NUMBER_5              &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8      &kp NUMBER_9  &kp NUMBER_0   &kp F12
+&trans  &kp LG(RIGHT_ARROW)  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &kp GRAVE     &kp BACKSLASH  &trans
+&trans  &trans               &trans            &trans              &trans                &trans                    &trans            &trans                                                            &trans
             >;
         };
 
