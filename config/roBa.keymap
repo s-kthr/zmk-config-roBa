@@ -98,10 +98,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESCAPE    &trans               &trans            &trans              &trans                                                            &kp F7             &kp F8            &kp F9     &kp F10        &kp F11
-&kp NUMBER_1  &kp NUMBER_2         &kp NUMBER_3      &kp NUMBER_4        &kp N5                &kp LG(LS(NUMBER_3))      &kp SEMICOLON     &kp NUMBER_6       &kp N7            &kp N8     &kp N9         &kp N0
-&trans        &kp LG(RIGHT_ARROW)  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &kp GRAVE  &kp BACKSLASH  &trans
-&trans        &trans               &trans            &trans              &trans                &trans                    &trans            &kp DELETE                                                     &trans
+&kp ESCAPE    &trans               &trans            &trans              &trans                                                          &kp F7             &kp F8            &kp F9     &kp F10        &kp F11
+&kp NUMBER_1  &kp NUMBER_2         &kp NUMBER_3      &kp NUMBER_4        &kp N5              &kp LG(LS(NUMBER_3))      &kp SEMICOLON     &kp NUMBER_6       &kp N7            &kp N8     &kp N9         &kp N0
+&trans        &kp LG(RIGHT_ARROW)  &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp LS(LC(LG(N5)))  &kp LG(LS(NUMBER_4))      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE  &kp GRAVE  &kp BACKSLASH  &trans
+&trans        &trans               &trans            &trans              &trans              &trans                    &trans            &kp DELETE                                                     &trans
             >;
         };
 
